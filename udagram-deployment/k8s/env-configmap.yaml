@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: cdr-763335115465-dev
+  AWS_PROFILE: default
+  AWS_REGION: us-east-1
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: database-1.cwevveguei3d.us-east-1.rds.amazonaws.com
+  URL: http://database-1.cwevveguei3d.us-east-1.rds.amazonaws.com:8100
+metadata:
+  name: env-config
